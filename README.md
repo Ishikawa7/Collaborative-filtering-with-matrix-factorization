@@ -5,9 +5,9 @@ Collaborative filtering with matrix factorization using Scipy library
 This code contains an implementation of a matrix factorization technique for recommendation systems. It takes as input an interaction matrix containing information about user-item interactions, and returns a list of recommended items for a given user.
 
 ## Requirements
-NumPy
-SciPy
-Pandas
+- NumPy
+- SciPy
+- Pandas
 
 ### Usage
 To use this code, follow these steps:
