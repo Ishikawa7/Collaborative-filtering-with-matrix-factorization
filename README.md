@@ -23,3 +23,5 @@ The code will output a list of recommended items for the specified user, sorted 
 The code normalizes the interaction matrix by subtracting the mean rating for each user and dividing by the standard deviation of the ratings for each user.
 The code computes the singular value decomposition (SVD) of the interaction matrix. The number of latent factors used in the SVD can be modified by changing the value of the k parameter in the call to svds.
 The code uses the dot product of the matrices obtained from SVD to compute predicted ratings for all items and recommends the highest-rated items to the user.
+
+In the end i compared the results from the naive approach that i used here: https://github.com/Ishikawa7/Simple-Collaborative-Filtering-with-Pandas
